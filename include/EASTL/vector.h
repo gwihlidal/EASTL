@@ -65,7 +65,7 @@
 #ifdef _MSC_VER
 	#pragma warning(push)
 	#pragma warning(disable: 4530)  // C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
-	#pragma warning(disable: 4345)  // Behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
+	//#pragma warning(disable: 4345)  // Behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
 	#pragma warning(disable: 4244)  // Argument: conversion from 'int' to 'const eastl::vector<T>::value_type', possible loss of data
 	#pragma warning(disable: 4127)  // Conditional expression is constant
 	#pragma warning(disable: 4480)  // nonstandard extension used: specifying underlying type for enum

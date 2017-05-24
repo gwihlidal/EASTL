@@ -860,7 +860,7 @@ namespace eastl
 	// Disable warning C4345 - behavior change: an object of POD type constructed with an initializer of the form ()
 	// will be default-initialized.
 	// This is the behavior we intend below.
-	EA_DISABLE_VC_WARNING(4345)
+	//EA_DISABLE_VC_WARNING(4345)
 	/// uninitialized_default_fill
 	///
 	/// Default-constructs the elements in the destination range.
@@ -928,7 +928,7 @@ namespace eastl
 			::new (static_cast<void*>(&*currentDest)) value_type();
 #endif
 	}
-	EA_RESTORE_VC_WARNING()
+	//EA_RESTORE_VC_WARNING()
 
 	/// uninitialized_fill
 	///
